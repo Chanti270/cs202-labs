@@ -1,0 +1,1547 @@
+hash,msg,is_bugfix,n_files
+d6ded0e91bcdd2a8f7a221f6a5552a33fe545359,"Created basic repository structure
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@1 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,0
+07ffc7d605cc96557db28a9e35da69bc0719611b,"Imported fledgeling Django documentation from private SVN repository
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@2 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,7
+ed114e15106192b22ebb78ef5bf5bce72b419d13,"Imported Django from private SVN repository (created from r. 8825)
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@3 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,114
+1cb1d9cd078adea3060742a768ef71f5bafb7f07,"Moved django-docs to just plain docs
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@4 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,7
+ce079538c66d826be5f0c4260ab4405b7abcbed7,"Added basic structure for django repository
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@5 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,4
+3c0ee70e7c6b9e40cef611061f7756c80691ee76,"Changed db/backends/postgresql.py to add the password and host params only if they're not blank
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@6 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+2fb6c3b845967f8c22baeedf4038c3e488746d26,"Fixed #30 -- django-admin startproject and startapp now ignore directories starting with a dot
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@8 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+2e4322123f61160470ef7c879470a364f5f968e7,"Changed many-to-many API to be get_FOO_list instead of get_FOOs
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@9 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,8
+d3abdd8731962ce40c8d3220ca496e2c5399d02d,"Removed hard-coded Adrian and Jacob in global_settings.ADMINS
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@10 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8c098891e29985a49a4069349ea56990d9a2c30b,"Removed World-Online-specific stuff from django.conf.global_settings
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@11 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+ef739404d33e8ea24f106e386575eaf1128a2d14,"Moved doc building script into django website dir
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@27 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+0bc849ff89bc7cbc4e9133df297de3542240a21a,"Created django.contrib and moved comments into it
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@28 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,13
+f98724e57ae739b3a5677684d61d72899307c302,"Fixed bug in django.contrib.comments urlconf
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@29 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+d9d6345e3ff1ac1638a3682310116715d6d3e120,"Fixed bug in [29]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@30 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+fda1f68492146e5d50c2a80d4ca7a365592df93e,"Fixed bug in [29]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@31 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+26c6566215ebc9407f3c40643ff907ac5084f3c1,"Made some changes to db-api docs
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@32 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+5fc13947fcd6c3f3569ce8b643030a645b108037,"Fixed a couple of bugs in the docs.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@39 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+f19dbab514d1f53f31fabaaed55cf0e7ca525382,"Made a bunch of doc improvements
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@41 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,4
+0bbb48ccc57529fd5b8f0ec6c904f2562da90b12,"Fixed a few broken links in docs
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@42 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+35d41699a93811efde5e450c75c51402934135f3,"Fixed another few small bugs in docs
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@44 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+6708086eddf5049fb61f3339097069b5df3059f3,"Fixed table layout issue
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@45 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+f7d619e4b952edf07790258f59b2b2622c85f4eb,"Removed images from docs in favor of absolute urls
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@48 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+0f40f3b757f51c5d1e006364291f89cc754b81bf,"More doc improvments: moved overview into doc system so it can be distributed with the package, and fixed a few spelling errors in templates doc (fixes #31).
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@49 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+80b4e33f1a6633825ddeb284e28653ba28848841,"More doc improvements: tweaks to the overview; added admin css documentation from wilson.
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@50 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+ce73f33a115e6028bef65c9c9b6c312afd51c2e7,"Made some changes to the FAQ
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@51 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+88ee7bb134190196d0bab17ef9daa4298b80c8f5,"Fixed line length in faq
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@52 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+eb9c9ab4d04c03bfe4d5108f7452cca572f68c56,"Changed django.core.mail to use [Django] prefix instead of [CMS]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@54 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+a051772b85624632771c65b41ad42df452978d94,"Changed mentions of CMS to Django in django.core xheaders and exceptions
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@55 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+960644ab08431ad5b608ee6bc2adaaf068c2a7be,"Added cache documentation
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@56 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+f4c581158d489aba88f3cbb2c61dd44949ea0038,"Renamed CMSRequest to DjangoRequest, and CMSContext to DjangoContext. Old code will still work.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@57 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,15
+7b47dcd7734fc8d3d4c96bc15f21833716ca82eb,"Changed faq to add 'What does Django mean'
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@58 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+dc2933f73b4a970d6b37241b6f185bbbacd1bb69,"Fixed #3 -- Made OneToOneField act like ForeignKey and ManyToManyField. This is the last big API change before the official launch.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@59 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+c8cae5bed9cb719a5825e3e0d5523429aa967476,"Removed gunk from legacy django.bin.setup, although distutils installation isn't done yet
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@60 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+b1ccec3d3de026d8c9e63e73cd737947f8c80485,"Fixed typo in FAQ -- Thanks, nathancolgate
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@61 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+1380de538aa3806d4cb76195b273b98ccd1ab3ac,"Changed name on LICENSE to be lawyerriffic
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@62 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+64c0ae520451df075d40e4c38511237a2db01eae,"Linked-up Apache, Python and PostgreSQL in the FAQ
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@63 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8acc6048e8fe17e1ba7e9df30aace2ef84d68276,"Removed the vestigal get_choices_from from ManyToMany relations.
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@64 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+775f433988445fe5caa622593f58be14506e3143,"Moved django.bin.setup to root level and converted it to use setuptools. Still not ready for prime time, though
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@65 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+05c5dabb8f6a42e37cb2e78c3ac00e787d29eea4,"Added ez_setup.py -- companion to [65]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@66 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+604cd7fe14026da97f73fdb47dc48429b001290a,"Yes yes yes -- more documentation improvements
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@67 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+41c99f35dba0a12c6bbb49ddcaa5fabf90ca6a0f,"Changed setup.py author and added django-admin to distutils 'scripts'
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@68 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+c1c308468e5a35b1dc0b136b47b44b16b643652e,"Fixed small error in overview doc
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@69 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+4c4f1354185f50317984ae309a34daeba7aef823,"Added URL config documentation
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@70 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+0d2b5e33cd7ca3a3f806321aa5d5893901d49352,"Added docs/install.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@71 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8d1623e68bfbc19e18247ef0a4efef9446fcb761,"Fixed a few small errors in the install doc
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@72 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+6b68559c9a85ebdad896f54986beda90f02ed5d2,"Clarified template documentation
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@73 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+7fcae93850491dece803eebebc531a0d6654c377,"Fixed small indentation error in [73]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@74 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+246402a2339175daf83057a3d6c97c03e44004ef,"Added Apache and DB instructions to doc/install.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@75 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+835240cf04b0c00eb02e026a9d39d3cd8ff0b4be,"Added some spacing to doc/install.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@76 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+158b54380e1b320023970b0f324ccc1a5c62aa5a,"Added a small clarification to doc/install.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@77 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+7aed83c85437f26c62175c99a30a2bf56992f505,"Fixed typo in install.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@78 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+d75fde94a736a4df6a068289d2204c4cd0497613,"Changed django-admin startproject so that it doesn't copy .pyc files
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@79 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8718675469fd3dce5213be65346c56c24fa3e701,"Changed DEBUG to be True by default in new projects
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@80 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+5c7b04122a0411df41d7abd52e54b4080357ea80,"Added DATABASE_PASSWORD stub to project_template/settings/main
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@81 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+fd5b0fa55cb68a1cb1749d80cef5112234e9a6fa,"Added project_template.settings.admin
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@82 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+03f72b629d09c962a9b0056cdf9940fb4382ced6,"Fixed small bug in auto-generated comment in project_template.settings.main
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@83 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+3eaa0cf1263a67291e04c2362b64bf725f38d0bb,"Changed docs/install to point out that you need Python DB bindings
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@84 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+97daa07bfe57a4f6e217d64d64cd1d99892b566a,"Added clarification about psycopg version 1, not version 2
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@85 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8c61d243df8f954b914f2a28bf5a956f13ddee28,"Fixed tiny formatting bug in install.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@86 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+0a35fce98ac118bcc8269e0cc330956399f38bd2,"Changed 'django-admin startapp' so that it try to write to INSTALLED_APPS magically. Also changed 'django-admin sqlclear' to reverse the output
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@87 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+dc5f2506d1f8a196459e72ffa871877a40902b53,"Changed 'django-admin sqlclear' to output deletion of content_types table now that we're not using ON DELETE CASCADE anymore
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@88 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8d0610d054e3f75f4343aab0bbaf64209a030711,"Gave django.core.meta.Model a repr(), as a fallback
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@89 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+07c8a965b675ae7b3047c60f2f156a8840de6c8b,"Fixed small typo in overview
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@90 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+40b8afaf324ee70bc753f74d6b450b3cbb7371ee,"Added ROOT_URLCONF and MIDDLEWARE_CLASSES to project_template.settings.admin
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@91 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+52f5c949e9b50ae3b0034d67f2d385219588aaf1,"Added default Django admin templates
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@92 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,20
+d095db81f5167a4e40c6eb60eb9557152c781cb6,"'django-admin.py init' now creates a site in the sites table, and project_template.settings.main.SITE_ID is now set to 1
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@93 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+635220c5cca60d512da5f41f99da54b4a4acca3b,"Moved default admin templates from templates.admin to django.conf.admin_templates
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@94 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,20
+c0daa77ea642d62a1742f520e3208db6a531b61c,"django-admin.py startproject now automatically points admin TEMPLATE_DIRS setting at the location of the default admin templates
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@95 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+dd5320d1d56ca7603747dd68871e72eee99d9e67,"Added admin media to the Django distribution
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@96 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,53
+d30ffb4db6a687171fb000877e9d0d9654165742,"Added docs/tutorial.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@97 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+a5a3eca7571126496f31286b91524106d5757c28,"Fixed a bunch of ReST-related bugs in docs/tutorial.txt and made some improvements
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@98 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+e327294ade76c6b042543b455b647639db6b5093,"Renamed docs/tutorial.txt to docs/tutorial01.txt in preparation for the long list of extremely helpful tutorials
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@99 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+451cdae8aef13dbafcdd5a02c5d16aa1d38a4d49,"Added link to installation guide from docs/tutorial01.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@100 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+2b40dee38dee47a58ce2da61002bf9e42bf20761,"Changed django-admin so that it doesn't load django.core.db or django.core.meta unless it needs to. As a result, 'django-admin startproject' works even if the database parameters are set incorrectly
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@101 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+fca9ba3f8cd556e49ad4f2f375a2dd3bf3730a93,"Set executable bit on django-admin.py
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@102 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+edba7a435f983ec52d61af0384c5c8e89bb8b495,"Broadened scope of admin docs
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@103 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+b4168db4afdc534d06f2bb022f334994facbfedf,"Changed tutorial01 so that it explicitly says: Make sure you've already created the database
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@104 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+f69ce6c2b322db37785d747e03cdafdf78939ab0,"django.conf.settings now fails loudly if DJANGO_SETTINGS_MODULE is broken in any way.
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@105 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+90494777388b53e124c1cc2d00202affae786117,"Changed [105] to match our code standards
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@106 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+470db1208d5f6983afeaa4c60a89e7498d80144c,"Changed docs/install.txt to add a short description of what mod_python is, and a link to the WSGI PEP
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@107 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+68baafc1100ceae5c8073975f8561e101a4ec1a4,"Added ADMIN_MEDIA_PREFIX setting instead of hard-coding /m/
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@108 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,5
+361be49fe7cd944606c71b772c9407a732848b60,"Changed postgresql DB backend so that it gives a helpful error message if people are using psycopg 2 instead of version 1
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@109 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+5721396426cecd9fb172aa1acd27e54da7c67c8c,"Fixed inconsistent capitalization in [109]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@110 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+fca1ef1d15650d6c2d5b9a35597f057004729ea4,"Rolled comments from install and faq pages into those docs.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@111 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+058c526ef9995fa54d64f5e6362c9f93a935fbb0,"Rolled comments from template page into FAQ
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@112 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+caef61945ded51a7a3955e3089cc071de99b8942,"Fixed #39 -- Thanks for the research, deelan!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@113 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+31cd933263ed31e9059de7d6e3f8fa2c52e7e273,"Copy-edited docs/faq.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@114 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+87b7703bd354dbeba6ccca9093a06db49fd66555,"Fixed bug in template example in docs/overview.txt -- thanks, pbx!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@115 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+8cb4eeeafea867d6434c216a0b900711e634de46,"Changed delete_stage admin view to run strip_tags on repr() of object to be deleted
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@116 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+6aa49f26759089ffd2f9d0952c12c670e3e3094a,"Added missing images, updated copyright on stylesheets
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@117 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,4
+e6a39617e584b7f942b7b5c028bc54dab1888579,"Removed unneeded images
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@118 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+980b3ce696b52c73064193dcd9b9f63ae067b56a,"One more extra image.
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@119 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+60bdadb9a3464a7f1f322655dc32d6a33d754be7,"Moved django.core.handler.ImproperlyConfigured into django.core.exceptions
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@120 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+b9ec05d4c03d111fb2846645fc12a9bb0d361388,"Fixed formatting in admin css docs
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@121 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+1e0fb3b7a3250a96869d598526be285e6f2a4fcd,"Added helpful error message if DATABASE_NAME or DATABASE_USER is blank for postgresql
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@122 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+820e12dac6ab8ee7fa46a2b27da3575b094bf2bb,"Temporarily commented-out the link to 'forgotten your password?' on the default admin login.html template
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@123 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+a22f823e0034bf607b841bd704cfd4d2cc6621a1,"More installation streamlining: Added default urlconfs, for both main and admin, to project_template. Changed ROOT_URLCONF in default main and admin settings to point at their respective default urlconfs
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@124 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,5
+d9e5a4ea5bee99cb3b3d24722e51c56021dd4545,"Removed an unneeded line of code in django/templatetags/adminmedia.py
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@125 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+a2a7fd0b824c76a6c599b731ca6505873d4195dd,"Added help_text to auth.User.password_md5
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@126 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+cfcf3ca1e3fc116388e9f95064acc0cf2233a93f,"More installation streamlining/automation: Added adminapplist templatetag library and changed the default admin index.html template to display all installed apps that have admins
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@127 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+82f04688014ff309e1744d76f0cc09ad69fc8db8,"Changed generic admin changelist to order by ID if no other ordering is specified, rather than raising a scary exception
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@128 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+c012d6ccf1b4d4b73c0e2633d14e70fe8f04d252,"Added first part of docs/tutorial02.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@129 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+f926982800cd32fc136e4f60719e8ef5c03ae217,"Fixed ReST errors in docs/tutorial02.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@130 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+2b681e9203a8e7adc1f7b789a6060aa9e37ebea4,"Changed FAQ 'Who's behind this' to give our locations
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@131 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+364f3704b0cce0d147336ae2d9328ea95e152b63,"Added two admin login-related questions to the FAQ
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@132 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+4211bcb43767b66e65599f7f3e38cdb52cd44243,"Added an example to one of the FAQ answers from [132]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@133 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+81215d79330507b26291d3347279b9c718da9fac,"Improved tutorial02 to discuss login errors, linking to the FAQ
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@134 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+d0e5eab6572b54ddb7c52d8afea1c3786e95ab2f,"Added missing admin images (for real this time)
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@135 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+5e309eb6e4e140590fb4567b138325bbab7eca71,"Copy-edited model-API docs
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@136 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+af86b4e4b1a8a22dc8458bb0874ce2754ea85a6d,"Added 'Adding related objects' section to docs/tutorial02.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@137 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+5162e4745fca4b0d67da8ad6fe60f6a675b4a1e0,"Fixed the inevitable ReST bug in [137]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@138 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+081f2f8c8d0a8902f04dfcca3a83cd7eb7779bff,"Added 'Customize the admin change list' section to docs/tutorial02.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@139 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+069bd054fd4413a47f2f9ace620b01cbfa33ecba,"Fixed small formatting errors in [139]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@140 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+7ade7678196347224789a46c77b17df7f3f3ccb4,"Tiny tweaks to tutorial02.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@141 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+c9cc6f87f9fb77a3d12db1b5640ac465f80418c3,"Finished tutorial02 and added a link to it from tutorial01
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@142 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+a1ef6aa10b302d77855172dba62918becc6a758c,"Fixed mistake in tutorial01 -- it mentioned expiration date by mistake. Thanks for the pointer, Barryp!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@143 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+0b62adddb241df9eb4d4e525e1952059615a5ebd,"Linked tutorial 2 to the admin CSS guide
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@144 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+136d78b86ed421126eb604e39527a5b90ec94974,"Fixed typo in template docs -- Thanks, Nicholas Riley and Robin Munn!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@145 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+7e951c92f327db7193e58881ad08dbd3b07ba55f,"Changed tutorial01 to clarify how to set an environment variable in Windows. Thanks, JZ!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@146 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+aef751972c426707ea6e1aee28a5ea8c94141fd0,"Fixed #43
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@147 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+ad8e55db9b0856573bfe740c350bfb39c7ca388e,"Added notes to documentation that MySQL support has not been comprehensively tested. Thanks, Simon!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@148 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+7718319cbd5ebc5daa42f9b9edb98fb3c784d4db,"Fixed inevitable ReST bugs in [148]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@149 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+f87473e12dfe0beef028ae37b7eb453131050337,"Fixed inevitable ReST bugs in [149]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@150 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+fe3373c7941e847eb247c6292b5ae37eeeb3188e,"Fixed inevitable ReST bugs in [150]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@151 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+35c16cba2cafab083ae7858aebb777e5d722d835,"Moved admin images to correct path specified in views/admin/main.py
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@152 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,36
+1680686e3aac30c947adde410b1fa6f30d86c581,"Fixed path to icon_searchbox.png
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@153 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+9629e40f354850c01c7bca9a5d006b22e18868f1,"Fixed img paths in css to point to img/admin
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@154 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+729fc547efe639043461aaf1d369a467400df7cb,"Changed setup.py to include admin_templates. Thanks for the heads-up, Freewheel and Nicholas Riley!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@155 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+6ae4def03b600a515f5715c3842d618d2fa1e84b,"Fixed #42 -- OneToOneField now works with SQL generation
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@156 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+58df4ce6364643732c6b2d9ab2d4a0254f5e1a89,"Fixed #40 -- Removed legacy code from meta.py method_set_related_many_to_many(). Thanks, jforeman@hark.org
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@157 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+35e81ce5af17268773e5f4fc48bc8452c89cc552,"Changed models.auth.LogEntry.get_admin_url NOT to be hard-coded with an initial slash
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@158 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+272b2175578c0ede4359fb10c96831b4aea95933,"Factored out database-specific date_extract behavior into dbmod.get_date_extract_sql(). Refs #46
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@159 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,4
+d4ddc06021a6c39665949111d9e9e9b2c4675ae6,"Changed core.db to give a friendlier error message if the DATABASE_ENGINE setting is invalid
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@160 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+b1c543d0910a79f4de93464fa684416c9441f7ce,"Factored out database-specific date_trunc behavior into dbmod.get_date_trunc_sql(). Refs #46
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@161 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,4
+683755118f8cbb0a31cd974b1e857984dde86b85,"Fixed #53 -- Thanks, Dobbes!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@162 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+dd85d8da104091ffcc85415f0b292b4695049c72,"Fixed #50 -- Fixed small bug in tutorial1 directory-listing example. Thanks, sirpete@iki.fi!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@163 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+f3a43a2dd4b111fdf330c023478d586b3f015546,"Folded django.core.handler.CoreHandler.get_request() into CoreHandler.call()
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@164 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+ac2a7c116dcc0591c5cb55f75b687ef9e8be632e,"Changed django.utils.httpwrappers.parse_file_upload() NOT to be coupled to mod_python
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@165 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+246c1f88d9d2634267b28e9de3fd05d1ddcbfa26,"Removed legacy CMSContext and CMSRequest from django.core.extensions, because all World Online code has been changed to remove those. This has no effect on anybody other than World Online
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@166 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+feeeda969c68757a26e769e7c6bbd2c7e5d58f8b,"Rolled django.core.extensions.DjangoRequest into django.utils.httpwrappers.ModPythonRequest, in preparation for WSGI support
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@167 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+4e094e26e6ada89a2810eb1ff335f22ef6a5ca5d,"Renamed django.core.handler.CoreHandler to ModPythonHandler, in preparation for WSGI support
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@168 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+ca3d89b70f30598d8e3a8438fcf4a0050963a21e,"Added WSGI support. Created core.handlers package. Moved ALL mod_python-specific code to django.core.handlers.modpython. Note that django.core.handler is still a valid mod_python handler but IS DEPRECATED. Use django.core.handlers.modpython, instead.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@169 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,6
+86d9ae269d969f71e44234493f9af529253391c0,"Moved django.bin.profiling.handler to django.core.handlers.profiler-hotshot
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@170 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+78206fd08c72a37a9ca1379e5c689edb59511efb,"Fixed #56 -- MySQL id columns are now UNSIGNED. Thanks, Manuzhai!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@171 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+fe8ca41e6302f2588f3757fbb3fb50a62cf113ab,"Fixed #57 -- Added some more helpful mod_python information to tutorial 2 -- thanks, Manuzhai!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@172 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+fbfa3d603ec12bf3789df558e9fd2f9e7bd0eb0f,"Improved docs/install.txt to say you don't have to run 'setup.py install' if you're using SVN. Thanks, dp_wiz
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@173 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+b68c478aa5d890e76aae6e2f695220505618c8e0,"Added 'django-admin.py runserver', which starts a lightweight development server running Django on a local port
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@174 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+912253371d58a27427719d50aa5cf140153f78df,"Moved django.views.decorators.cache.compress_string into django.utils.text
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@175 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+32e9209dd9928b813d1b8c52627d77c46c097184,"Fixed #68 -- Changed reference to deprecated mod_python config in tutorial 2. Thanks, pb@e-scribe.com
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@176 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+0944653673db90cce1f5fa972d0a8134dca19a75,"Added link to compiled Windows psycopg in docs/install.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@177 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8fd94405b51298e84fea604f339b8147df583270,"Added django.middleware.cache, which lets you cache an entire Django-powered site by adding a line to your settings
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@178 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+cf4c164e9f76b7be2ea6257d223b76d4625f70c6,"Changed core.handlers.modpython.populate_apache_request NOT to have side effects on http_response. This has no effect on legacy code but will prevent problems in new code
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@181 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+12c04fbf293f49f007176660a2b1fb4e279eedee,"Fixed bug in dynamically-generated docs -- ForeignKeys were throwing an exception
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@182 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+a7237aaface05fc332a19475bcc27df056eaca9a,"Fixed #71 -- Changed default admin base_site template to use example.com instead of mysite.com. Thanks, pb@e-scribe.com
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@183 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+34f749e506b6e0748809ba71e877082cf5eedd21,"Fixed #52 -- Corrected and clarified some things in docs/model-api. Thanks, Dobbes
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@184 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+a7506973af918e177d102328c6db52bc9e0f43b4,"Moved default admin from media to django/conf/admin_media, so Django is able to introspect their location, in preparation for #76
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@185 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,56
+62cc287b2b6466e877b2f46d9e0825fb294f542e,"Fixed #76 -- development server now serves images, too, at whatever relative URL is provided by ADMIN_MEDIA_PREFIX
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@186 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+b55b29c891b6b6b692d3e39f49875163a21e896e,"Changed tutorial2 to use 'django-admin runserver' instead of mod_python. Also updated WSGI mentions in the docs, now that we're WSGI-friendly.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@187 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+00f54d6cf69fbe9a3970c038c2a67ee8c8307bca,"Added scary warning about not using the development server in production environments
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@188 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8f4fa5a4e7435876a99383bffafb7a09ba6667e1,"Fixed #69 -- Implemented dictfetchone(), dictfetchmany() and dictfetchall() for mysql DB backend. Thanks, Manuzhai!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@190 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+2363af5782deab47d1f3bfab629d986191a27502,"Fixed #54 -- Corrected typos in urlconfs in docs/overview. Thanks, james!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@191 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+73ea27ccb0ff4cacb3bc492496d9529aebed2970,"Fixed bug in [191]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@192 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+3ab579138375bd41bd8fca1126b68aecb68b9951,"Improved ViewDoesNotExist error messages in django.core.urlresolvers
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@193 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+7d553c0650a1dad73c98cf8cd9b8d13eb0633e56,"Improved TemplateDoesNotExist error message in django.core.template_file
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@194 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+1f4379bcd4374b699f0645d95113a40e194e2d7b,"Added docs/tutorial03
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@195 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+fc85642ed538464154d0e8e294ab99c3b14d0590,"Added a more helpful error message to django.core.urlresolvers.RegexURLResolver.resolve
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@196 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+b20bb2fc2663e0c5aa654cd8db74ced8d2733cae,"Fixed stupid error in tutorial03
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@197 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+6fdb7c98e820912b387da05f4a4d9643afd9c3d8,"Small clarification to tutorial03
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@198 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+09e825c7466b87e2a974a07453156d1cd6fc70e5,"Small formatting fix to tutorial03
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@199 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+851b14deca6eda4d4b6312f8ed10f65c14115c9c,"Word-wrapped some code examples in tutorial03
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@200 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+1062b1e042b1c920c73ae12384086027521e3b8a,"Small formatting fix to tutorial03
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@201 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+bec9009d8399c5a33508ba226f3839cd8b305484,"Changed tutorial03 to match the new error message from [193]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@202 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+7fa76265ad1c040812f7973d102dfacd3a72bf6e,"Fixed #83 -- Fixed spelling error in django.conf.settings. Nice catch, Manuzhai!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@203 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+b430d4c54f9a505ff451fa7dae4b74da76ebb1c7,"Improved error message in urlresolvers.RegexURLResolver.resolve to use repr instead of str on app_path
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@204 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+b617884ced62482603603d8c1929c70051b44426,"Fixed typo in tutorial03 -- thanks, Robin Munn
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@206 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+57970663831908e8f1e8bb787b04ac923d123e41,"Added support for istartswith and iendswith in database API
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@207 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+3e09a1fc1c7cd44a3c7b74ef0573018d01c484d2,"Quick bugfix to [207] -- MySQL doesn't have ILIKE
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@208 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+0bb0ad8d435cc4eb3f7d9481ead7085e12e0a088,"Fixed error in instructions for form labels.
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@209 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+b68f26e42dbfe95783d63662963721bb030172e0,"Added screenshots to admin css docs
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@210 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+e243d8287442a65d8c620f5c4f3033aa7d6bbd82,"Fixed ReST formatting bug in db-api.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@211 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+df66763406cc76e8d0c65b3a857c891c21c25f49,"Fixed #67 -- Human-readable name is now optional in model fields. If a second positional argument isn't given, Django will use the first argument, converting underscores to spaces. This change is fully backwards-compatible.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@212 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,5
+e29afe7974c169f0028c71b6c33a793bc5f7464d,"Fixed #88 -- settings are now forgiving of single-element INSTALLED_APPS and TEMPLATE_DIRS without trailing commas.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@213 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+258afd8fae2bf34ca40525c38b9fc28fb2465d79,"Fixed bug in example exception in tutorial03 -- thanks, Amit Upadhyay
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@214 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+5874952a8e799783c16e87e427fc13272f581843,"Improved error message when DATABASE_ENGINE is invalid. It now displays a list of all available database backends
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@215 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+307f3a95c7c0466f8b821395b611d3253ae4c79c,"Fixed the annoying login error that happens in some cases when REGISTRATION_COOKIE_DOMAIN isn't set. Now, generally you don't have to sete REGISTRATION_COOKIE_DOMAIN unless you want to use multi-domain cookies (such as '.foo.com')
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@216 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+3ad2a774a7b9224c1cd4890b9d99c6871c414372,"Added 'How to use Django with mod_python' -- docs/modpython.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@217 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+c9f90060a5ff716630d393046bb3348dc5f50c0e,"Added 'How can I see the raw SQL queries Django is running?' to the FAQ
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@218 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+c97d93ed56b55b63686e7d39dd39086169d2ea0a,"Added note to tutorial02 on how to stop the development server on Unix vs. Windows
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@219 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+21f152e9e59d9e0278d5b4b114781b64e4259f30,"Removed redundant word from docs/modpython.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@220 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+1dfc375e35d44d68b84eb3ae6e7c1fd04c920eee,"Added some more to docs/modpython.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@221 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+3148adf91d5fc6e8d2c0939b0f8bbe3240de2df3,"Added note about 'PythonDebug Off' to docs/modpython.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@222 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+12321ea962128e2c051cb996d7936288f95d1c8f,"Added 'Running a development server with mod_python' to docs/modpython.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@223 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+b0e1a1dda8c020cd6ebe07640fd5929cd5ee3345,"Changed docs/cache to add docs for site-wide caching, via the cache middleware
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@224 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+9581c9ed96a841c90f780b8d3f0c455640e9418f,"Added better description of SlugField
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@225 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+76633e54999e048afc04ffe24af496ce600c668d,"Fixed inevitable ReST bug in [224]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@226 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+3fc5294d2eb0628091953055caf70f0b0e75fa23,"Fixed #84 -- CREATE TABLE foreign keys now work in MySQL
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@227 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+43538e78eb98966838168b9d9d84d5f6313e9277,"Fixed #59 -- Changed hard-coded references to password_change and logout in admin templates to add /admin/ prefix. Still hard-coded, but you can override it in custom templates if your URL structure is different
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@228 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+897d24b220a9615f036ffed663926851a7ec5e64,"Fixed #95 -- Added SECRET_KEY setting instead of hard-coding keys that are shared for every Django installation. 'django-admin.py startproject' now creates a random SECRET_KEY. The auth and comments modules, and the admin middleware, all use SECRET_KEY now, instead of hard-coded values.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@230 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,6
+49fbe711ccfe302c00ce7b1e5d71848699482899,"Added missing import to [230]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@231 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+20820f2e85e6e4937e76f83c37b04e3eeda76308,"Made ModPythonHandler.get_response() tolerant of repr(request) that has an exception
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@232 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+d384870307a7612fe6eb340aeabcdc543b61390e,"Changed django.views.defaults to use template.Context instead of core.extensions.DjangoContext
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@233 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+526f6af782350bbc3913470a6736c0f7f44548d0,"Changed models.auth.Session.get_session_from_cookie to raise SessionDoesNotExist instead of SuspiciousOperation if tamper check fails
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@234 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+a88119369329c63cc53d9a309db19a867b81f91f,"Fixed typos and tightened up docs/url_dispatch.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@236 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+039d121227313306a5cbd5805fba63e1e62996e1,"Added 'How can I customize the functionality of the admin interface?' to FAQ
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@237 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+584cab7bc5125be488c8f755b5c3ce50cf5a5c6f,"Fixed ForeignKey('self') so that extra cruft parameters aren't necessary. Also refactored the way meta.Admin is handled, so that fields aren't initialized until you manually call meta.Admin.get_field_objs()
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@238 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,3
+45c334dd8bf9945e745a68b1199c2e536a3274d3,"Cleaned up code in django.conf.settings to move DJANGO_SETTINGS_MODULE into a variable, so other scripts can introspect it. Also made it display a better error message if DJANGO_SETTINGS_MODULE is set to the empty string
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@239 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+2012f7df63a6c087792b7afa7e9cb1d26731005e,"'django-admin runserver' now displays the settings module you're using when it starts up
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@240 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+e215ed36092807a558fcfa29492d7246ce6158ed,"Fixed #102 -- Now using text/plain mimetype for exceptions displayed in the browser, so angle brackets are no longer an issue
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@241 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+1fc28dea117e710b9c16b6c53e49049fa6d764c5,"Fixed #97 -- Refactored django-admin.py so that it only contains command-line-interface code. Moved the actual meat into django/core/management.py
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@242 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+890bd5b0d24a0f1dba6eab639c3b1e731424b006,"Added ""reversed"" option to get_comment_list templatetag to return comments in most-recent-first order.
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@244 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+067f56d93de6232179ce2651281c67256ab28023,"Fixed really dumb bug in [244]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@245 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+1b8c4c455682e6fcc747ae2dfc0133862dd0d1a3,"Argh: fixed another bug in [244]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@246 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+ec31445c527a22a736cc769d35791f3fea9b477b,"Added '--settings' option to django-admin. This specifies which settings module to use, if you don't want to deal with setting the DJANGO_SETTINGS_MODULE environment variable. Refactored django-admin to use optparse. Updated the tutorials to use '--settings' instead of environment variables, which can be confusing.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@247 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,4
+e5a8c38fa1d9dae0bebc6b4671997b0f16e60913,"Added ""philosophy"" sections to tutorials so they can be styled differently
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@250 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+99a75541fdf5e83f228db8e9c06e10226dae65c5,"Fixed small problem in [250]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@251 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+47cc60d94b6f96ae939b7325be793d8a2cf8f31d,"Fixed small bug in print_error() calls in django-admin
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@252 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+10ace9a124014333fd0a74ba1645ad0c23dee38b,"Added clarification about 'django-admin.py sqlclear' to docs/tutorial01
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@253 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+65bed3241d2e5546841f2c370449d67426022a27,"Added note about ForeignKey(""self""); fixes #100
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@254 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+d9656947db8f4c89546031cd49fe198bcef7a7cd,"Fixed #123 -- thanks jay!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@255 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+895d23267115412ab7344ce7668adb1efa7f8e00,"Small code cleanup -- changed django.core.management.get_sql_delete to use get_m2m_db_table(), and moved get_m2m_db_table() from Field to ManyToManyField, because it's only used by the latter
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@256 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+bc5359f754f7afe6b4aa1eb4972c32a508b7fb55,"Added optional rel_name parameter to ManyToManyField, which makes it possible to many-to-many-relate a single model to another model more than once. Also updated the model docs to reflect this
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@257 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+903920a3d23f33abc7574cb9fcca17cb87f7e59a,"Fixed #103 -- Changed docs/install.txt to note there is no official version yet
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@258 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+b2cb66bfbca65b6b52cbfb9ef2cb71af774e0d80,"Filled in INSTALL and README files
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@259 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+0500321a4be08ac2a1b27ac15c4194986610a39a,"Added 'Serving media files' to docs/modpython.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@260 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+d330be016927bacf5fcad337138741311ac7270e,"Added 'django-admin createsuperuser' and updated tutorial to use it instead of manually creating the user in the Python interactive prompt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@261 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+8d144dadd8b60a7ce803ebcb235718f06e2d5986,"Fixed #114 -- Changed uses of deprecated 'whrandom' module to 'random'
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@262 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+03c436bf61747892af12c87c15b3548d83d53bec,"Refactored django.views.admin.main to call opts.admin.get_field_objs() only once, and made sure no code accessed admin.fields directly, in preparation for an upcoming change
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@263 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+304b08e3254f7c46999d1204ce9968c00ad088eb,"Improved 'django-admin runserver' so that it explicitly tells you how to stop it. Also trapped KeyboardInterrupt so stopping it doesn't give an ugly traceback.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@264 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+c21f6ecee24c6587bb8ddddc878aad3fd29b40a7,"Fixed #92 -- meta.Admin 'fields' parameter is now optional. If it's not given, Django will use all editable fields by default. This cuts down on redundancy. Also updated relevant docs to reflect the change.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@265 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,6
+9566a61a22e1da30fb8abfef4b25d83d0c465be9,"Added auto-reload to standalone server! Fixes #113. Thanks very much to Jason Huggins for the patch.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@266 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+e1d21e5bcfc492333069db055c6b4ea59065875f,"Added copyright notice to utils/autoreload for CherryPy folks
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@267 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+6b514f1aab919fe847095f0f02c33b08d2023a0b,"Fixed #137 -- thanks nesh@studioquattro.co.yu
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@268 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+907ae72e81b2908a86fc520af897eeb432e03d58,"fixes #133 -- thanks Joeri
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@269 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+ccffb199464e9b982f2972a29d5ecb35cf53f586,"Fixed #132 -- thanks anonymous user
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@270 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+4cb985df1638241c40c48b3637d6663652f12fcf,"Added a ""suggested reading order"" to the README (fixes #136 -- thanks paolo!).  Also reworded some of the language in the README and added pointers to the various help resources.
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@271 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+841b42624365e573b5da8d020931bdb93e7ebc47,"Cleaned up [269] a tiny bit
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@272 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+3ff931848e1c9261021db35eac9381c5c40c55d4,"Fixed #138 -- Thanks, paolo
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@273 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+8aa16458126f48a474a0f17b225abb822e11790e,"Changed tutorial docs to account for auto-reload on the development server
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@274 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+52d761cc7a2296e75f4e97e1c0e501f2623fe08c,"Fixed #135 -- Added 'Multiple Django installations on the same Apache' to docs/mod_python.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@275 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+78cff1837aed5fccb35e378bd2dd27a3d09a7a00,"Refactor dictfetch* methods from mysql backend out into a seperate module; this is so that future db backends that need these functions can share them.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@276 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+7af62f48e33c5e392b6978607e312f4e033f1de4,"Added note about using different settings modules in the same virtual host
+(thanks steadicat).
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@277 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8a285ec790ab0ec4e19c730d17725183490ad81f,"Fixed ReST bug in [277]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@278 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+2dfea67e341903a1e63f93010f1a007b085696b0,"No, [278] missed the actual bug; this should fix it
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@279 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+6bb7c50143c99e22251d7525500a2f2a6ef6ac00,"Rolled comments on tutorial 3 into document and cleaned up a few things.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@280 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+df6feb54f2e962d2ecaab370514f764317de1acf,"Rolled comments on faq into the FAQ
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@281 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+96d69c5b5faa07c3be471b9a9c849b40a305e5f4,"Updated url dispatch docs to make it more clear that the prefix need not end in a dot
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@282 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+18749c00602edeafd0b10da807ec55767fd6a6c8,"Rolled a number of comments into documentation; thanks to all those who contributed.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@283 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+8b58f8b3ae51910b4399209e729ffb9fee394f83,"Fixed #141 -- thanks sdelatorre@gmail.com
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@284 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+f8e5df6d7ebdd5dd48ee56645fc008928b478358,"Fixed spelling error and reworded mod_python PythonInterpreter section of docs
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@285 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+9c3c0bed334ce5db7156128d5639182bb4170315,"Fixed typos in docs/url_dispatch from [282]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@286 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+dbfb35b54225b7f3cf188ea6dba143a589924a0f,"Fixed #145 -- Changed admin logout to use views.auth.login.logout, which uses redirects to ensure cookies aren't stale. Thanks, sdelatorre@gmail.com
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@287 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,3
+e320a0936e4c846e7332bcacc533dda19dad6783,"Added sqlite3 database backend -- somewhat tested, but probably not 100% perfect.
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@288 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,4
+a1f479e080314b1ea957d4eedb7b091184ae0f55,"Fixed #147 -- Thanks, Robin Munn!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@289 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+2d3def9fa29422b2acd2380d84c1d4c0c2e1b331,"Tiny code compression in django.views.admin.main
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@290 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+05bdb8d64b7f539b7c6ffcd5d7c4ef9b3406c657,"Fixed a legacy ordering_tuple --> order_by renaming in core.paginator
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@291 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+8b3c05afa55f963d6e966707737cbc639f697239,"Fixed #146 -- Changed order_by and ordering parameters to be less verbose. The old syntax is still supported but will not be supported by first release.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@292 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,7
+837a64565b2494d3cac6909b070cb29c567b786c,"Django now outputs a warning if you use old ordering syntax
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@293 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8ef422d070ecd19ab285282430b174513736aa9d,"Added password reset templates to admin_templates
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@294 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,5
+f1f952761e6c20ec59a58c377a68c3a3c357773c,"Uncommented link to Change password now that it works
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@295 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+79026a6e224250612c76ecf8cfa33c519983e70e,"Fixed #156 -- Fixed admin changelist bug as a result of ordering syntax change
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@296 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+d573cb021e69854d947dd988b6c9e492a688a377,"Fixed #112 -- WSGI handler now displays proper text status. Thanks, sune.kirkeby@gmail.com!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@297 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+c97efb6799168c8903fc1181ecada7fe9932dd1f,"Fixed #63 -- Refactored django.core.handlers into subclasses to remove duplicate code
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@298 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,3
+c2a5c49ac279f1e0e2cdbec3de0d957893b9c839,"Fixed #153 -- Changed docs to use new ordering syntax
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@299 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,3
+0bbe1f4425db3a20d88ad64161170a6227cd8909,"DateTimeShortcuts.js now calls the right dismiss function; thanks jhernandez
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@300 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+4ab1e196c44903f89d123a6055d3330100bfbc1c,"Fixed #169 -- Thanks, django@gimbo.org.uk
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@301 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+768c17eda0310b99daa75e05e7e1e00bb82fbc15,"Fixed #168 -- admin object history was assuming primary key was named 'id'. Thanks, clintecker@gmail.com
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@302 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+8bd30b01e401e7ed8ef87bf42bec2614e8d96570,"Added formfields/manipulators docs; added a few notes to the FAQ
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@303 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+371144f13401d8742876b77f5407011eb50f93d8,"A bunch of generics: documentation of generic views; cleaned up existing generic views, and added create/update generic views.
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@304 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,4
+1c947e50c92803e0a54fe7df7d32b5bd40ea54b6,"Cleaned up FAQ changes from [303]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@305 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+f6c4395329ea05a84e58d2f603fcf72b2b0604c7,"Copy-edited docs from [303] and [304]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@306 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+6c43b0e06c09b7311aeba850a9e5ca3596f62e96,"Fixed #195: generic views now allow callables in extra_context dicts -- thanks, Moof!
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@307 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,3
+5498dbe519ea5e629d1a1818aa9d17946f51d326,"Fixed #196: date-based generic views now have a ""use_numeric_months"" option if you'd like to use numeric months in the urls.  Also fixed #183 while I was at it.
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@308 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+12ffae6df4da6e8114649c493751c133c36bc313,"Fixed #197 -- thanks for finding that, mmarshall
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@309 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+a6ed088c62cc788c25e3fa8ef88e314a89db8fce,"Fixed #194 -- thanks, steadicat!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@310 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+48441f467f32fb36b20b45c88948bd19454df263,"Fixed #193 -- thanks (again), steadicat
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@311 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+7d574e8f7647a1ac8e2613c4be9c45adf4b5fc0e,"Removed 'use_numeric_months' parameter in generic date views (from [308]) in favor of something more powerful -- you can now provide month_format and day_format, which are format strings that specify how you expect the month and day to be formatted in the URL.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@312 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+1484f2e2255da321b4810cd06da527b57774e18a,"Fixed #207 -- thanks, Mathieu.
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@313 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+e207378ad36caf0cb322bb264b569e0d915963f4,"Fixed #204 -- Changed 'django-admin createsuperuser' to disallow blank passwords
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@314 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+f14c98e44c388e7171977b9be8d70dd3176d7919,"Fixed #203 -- Added explicit comma to tutorial 2. Thanks, sirpete@iki.fi
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@315 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+786c750c40417a59449f1c5595fcc6b370ca7d4f,"Fixed #163 -- Added 'pk' database API option, which is a shorthand for (primary_key)__exact
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@316 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,14
+63009faa141273726d124863053e3b5ab298c4f5,"Added 'ne' lookup type to docs/db-api
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@317 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+284948b9cf275b792369405747c1e112a0b94a48,"Fixed #166 -- Added an 'in' lookup type to the database API
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@318 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+ba3db4ca38fc81f066e74bb77d54ef277d74d756,"Removed Adrian's note in the docstring of django.utils.feedgenerator -- it's part of Django now
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@319 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8a86e7713f26f6e91a9a25615073321b9dd842eb,"Fixed #161 -- Log output for 'django-admin runserver' no longer includes admin media
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@320 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+5a3da949fa6825fd4f66becc3930272ea9432f69,"Fixed #198 -- istartswith and iendswith weren't working properly. Thanks, brantley
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@321 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+aeff2cb530fb2a0234bac4fb31aa650d4395f55a,"Fixed #93 -- Fixed 'django-admin startproject' to use os.path.join instead of string concatenation
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@322 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+b23c63bcfeb870c46889fbf1d36874017c358c90,"Fixed #206 -- 'django-admin sqlclear' now deletes from admin log to prevent referential integrity violations
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@323 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+3c0c0e7317ebc5bb43faf8cdf24ca495ff154e91,"Fixed #162 -- Admin log now records repr() before calling delete(), instead of after calling it() -- thanks, mfenniak@pobox.com!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@324 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+fe91881e35db30dc61185c38cc0ab5c6a642e82f,"Fixed #159 -- Admin users no longer have to log in to go to the 'log out' page. Thanks, Manuzhai
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@325 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+6a12d65b97f7fea91783aa0157759c5ca41dbde6,"Changed admin logged_out template NOT to hard-code /admin/ as the 'Home'. Refs #158
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@326 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+18e420da02d5734fec41876a5f5e91cf1de8ca48,"Added breadcrumbs to password-reset and password-change admin templates
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@327 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,4
+f188d5930d2af0d0a987266b511a3b5ff2048c9e,"Fixed #143 -- Clarified the need for an environment variable in tutorial 1. Thanks, sdelatorre@gmail.com
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@328 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+d8ef66b17d5361c2c56b3ae04af82f3a619b69e6,"Fixed #186 -- Refactored meta.py to remove duplicate code between function_get_list and function_get_iterator. Thanks, rmunn@pobox.com
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@329 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+d52db2d879a4ab7b9318c71a22efe83ab462ddc8,"Changed django.core.management.get_sql_delete to be more robust when many-to-many tables don't exist
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@330 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+9b983831752d61b340bc67b0be5d2c8c5dbfcb18,"Fixed #187 -- Made admin view handle one-to-one relationships in which the parent relationship doesn't have the 'admin' parameter set. Thanks, Moof
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@331 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+1d2ab3606848fb062554a53f33b24d8ce9adbd75,"Fixed bug for models with a ForeignKey('self') and order_with_respect_to
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@332 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+f5b605ab1b0074ea8bdda0063bd9fad77a76ab45,"Fixed #218 -- Fixed admin change-list column sorting
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@333 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+cf9efea2407bfab31cc930f665babe0fcb6ca5ff,"Whoop, left in an 'assert False' in [333]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@334 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+cae7ebe19f3b517ed463fff031973bd412ffa6a3,"Changed docs/install.txt to note SQLite support and requirement for pysqlite 2.0.3 or higher
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@335 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+daf8467b37f7aaae0b463b40a2c9d98f1f53c556,"Added first stab at model and DB-API unit tests
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@336 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,10
+d4a9a4f83a4e4d94b7357666ee99eec0d3ef5486,"Fixed #223 -- Changed breadcrumbs in admin doc templates to use relative, not absolute, URLs. Thanks, Drew Amato
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@337 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,9
+85d2b12bdff63a5c4b269b290904dd499f92a40f,"Added two more model test modules -- get_latest and lookup
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@339 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+9e64035796cb887391fcc968d74cb1317ab62794,"Changed admin views to output utf-8 charset explicitly
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@340 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+f6e75ab3cfbb4e806d00aa332ec9b149f6699556,"Added support for sqlite backend to test framework
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@341 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+a47794c82488c1cf307ee92aff0e5607e03ae0fc,"Changed model test framework to use meta.get_app() instead of a manual import
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@342 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+645111894657f12f0acc8be1f56676a461d81b6d,"Added equality test to 'basic' model unit test
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@343 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+33d5006cc7436363a01acbf3e2181ea317794939,"Added m2m_intermediary model unit test/example
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@344 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+5bfab1e1b200cfd732e91ea1106d4d9c363a14fe,"Small addition to m2m_intermediary model test
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@345 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+017b8753a63d141e1ba5cbed5e7a609a7e1a4bab,"Fixed #219 and #188 -- Database timestamp typecast no longer assumes '-' delineates the time zone
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@346 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+47ce61533a5364c6d45803a696d86cbcb1ed2b33,"Fixed #228 -- Better handling of timezones. Thanks, rmunn
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@347 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+5002b44f2872f87785d34eee6f2cc9e7d410a797,"Added tests.builddocs, which builds HTML documentation by introspecting the model unit tests
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@348 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+b3e8b20b3eb6af376e57036275bf326349ca6190,"Changed template in tests.builddocs
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@350 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+7b6c472167cb8e0f66286c75e76f4f326e5caa56,"Changed tests.builddocs to handle ReST double-backquotes (albeit naively)
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@351 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+b7643d009eea7547b7f65b20c27369bb223290fd,"Added 'API reference' section to generated model examples
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@352 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+716d00a31431add73bea0204cb5374947f71be87,"Small formatting tweak to generated model examples
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@353 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8b36eb11d392b0ef2d448a7295e2de11086c47a8,"Gave comments.FreeComment a get_absolute_url() method
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@354 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+04544c97b92b2de485c6de6675eb387fafb758c7,"Added one_to_one model unit test/example
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@355 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+2f0411569420e633f0ca3e662a8d4406afce0f91,"Added m2o_recursive and m2o_recursive2 model unit tests/examples
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@356 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,4
+af95567c1425975353567acba8af6f14a8802276,"Improved error message in urlresolvers (fixes #240)
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@357 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+3aa33edeef66ae468eb10dd6b3d35e7053156c45,"Small formatting improvement to one_to_one model test
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@358 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+1a8fc57bf6e4b86fe047d04fea2efe50296634d0,"Fixed #214 -- Added get_values() and get_values_iterator() module-level functions to DB API. Thanks, rmunn
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@359 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+b307fb09bb615361ee296d0c1f8d1a7c4809f6dd,"Fixed #239 and #107 -- Changed model init() to use Field.get_default() if the value wasn't explicitly passed as a keyword argument. That means setting 'id=None' is no longer necessary, and you can leave off fields if you want them to have default values set.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@360 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,5
+a4438d74f666e1f5b9e8e0c13463ec5e62a1e11f,"Changed custom_methods model test/doc to add explanation of what Article(*row) means, for Python beginners
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@363 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+7c738177dc061db656f79c7965a67ec269d6cc53,"Fixed typo in tutorial03 -- thanks, Robin Munn
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@364 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+d62f31228b3f9bffde707124d28d755239b78fd0,"Clarified Tutorial 3 to explain settings have changed -- thanks, Robin Munn
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@365 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8483f0aa047d4bff51e994e06e2ecf0365749830,"Additional clarification to [365]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@366 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+440a2a97e9a8420ddf6186d4e948662bb3015e7d,"Added framework for writing non-model-based tests, and added tests for cache and templates
+from the old django/tests location (which has been removed).
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@367 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,9
+c73f4cd48697b7680fa95acb47f74720a1dce68f,"Removed tests/builddocs in favor of integrating it into the documentation builder for the site in general
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@371 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+77faac0cb7719bc84aa5653a6179a6e7c0bf4bf9,"Changed SEND_BROKEN_LINK_EMAILS from True to False in global_settings -- it was causing too much confusion with improperly configured/missing mail servers
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@376 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+006e9e789baabdf3c5077e2ab39747f217ddf659,"Fixed #180 -- Removed 'enctype' from FREE_COMMENT_FORM template in contrib.comments.templatetags
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@377 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+e0c3dd3318f6f4895554521c6bf69676635b1937,"Refactored meta.py -- created a django.core.meta package, with init.py and fields.py
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@378 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,8
+a9331211c8566480e4367ee58770f62d0ac7366b,"Modified custom_methods test to use date() instead of datetime()
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@379 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+6656806f42f6c97264a65b2bbc9ba2cfb746bca3,"Fixed duplicate code bug in docs/overview.txt -- thanks, James Kew
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@380 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+6950f4f8ddc1388576e8b0bf23f8ef952c3bf0e3,"Fixed small typo in docs/overview.txt -- thanks, Trent
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@381 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+e73c734336be21dcba127ef322435edf81c5adbc,"Added 'Can I use Django with a pre-existing database?' to the FAQ
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@382 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+1510ca1a80f811d6e681a880d7e49d413ce8afb4,"Fixed #227 -- the sqlite backend now correctly typecasts unicode objects to bytestrings (thanks hugo)
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@383 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+d9401b78f11b47c5daa95a4fa60925b3fed50203,"Added first stab at 'django-admin.py inspectdb', which takes a database name and introspects the tables, outputting a Django model. Works in PostgreSQL and MySQL. It's missing some niceties at the moment, such as detection of primary-keys and relationships, but it works. Refs #90.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@384 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,6
+2e83364965d2684f0361cbc37617e0cab0fcc104,"Calendar next/prev popups now work in Safari (fixed #2)
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@385 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+b3b27d25932b994e1d1834479d2b79bb1284c6ba,"Removed id field from auth.Message model -- it's implied
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@386 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+623863d0a4e0c850196a863c646a2fe3ef178791,"Fixed #105 -- collapsable fieldsets now work in both ways (thanks, Simon)
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@387 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+51aba5deafd276663064f0796b25d5e512a07336,"Removed redundant verbose names from auth and core models, because they're no longer required
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@388 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+72e32b31f23415af8cc7a400f072c70f6b4bc6cc,"Fixed #249 -- Added our IRC nicks to docs/faq.txt. Good idea, espen
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@389 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+ffc3edd79ee4abc7a22ea07f0660322f50306334,"Fixed a subtle bug with the {% load %} tag: if a tag/filter was removed from template.registered_tags/filters, {% load %} would fail (since module-level code is only run on an initial import).  {% load %} now reloads the module, which makes sure that the tag always works even when someone's been doing something screwy.  This fixes #242 (and wouldn't had been found without it, so much thanks).
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@390 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+ce0d0cd9e2cd5ac9850d825f28db39b1e123ac1e,"Made a bunch of fixes to auto-generated admin documentation:
+
+    * Views are no longer ""doubled""
+    * Links work better (view -> model links and friends were broken)
+    * Performance has been improved so now the pages no longer need to be cached.
+    
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@391 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,7
+49c670871634e78d588cba21f84b094479f2aa4f,"Added doc view for templates that will show the search path for a given template on each site
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@392 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+3af4730419132ce91841b5a16d620bb7c3bc0818,"Fixed #252 -- Updated shared-hosting FAQ. Thanks, Matt Croydon
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@393 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+c0451036ac3823de742fecfc48234775e1cfd333,"Changed faq to say explicitly that db.queries includes all SQL statements
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@394 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+f4e4ae96cb69d616af6f7009512cdcd2cb7c1e39,"Improved 'django-admin inspectdb' so that it detects ForeignKey relationships -- PostgreSQL only
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@395 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,6
+7dc07ed937efff91c0be098c0ae6b91cd363c1dd,"Fixed typo in one_to_one test docstring. Thanks, Frank
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@396 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+808e50986b0c117541b563cec055dba2937ed453,"Fixed #257 -- Empty model modules no longer cause an error. Thanks, Bill de hÓra
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@397 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+cfbf261709ffde0419a8aa75319e2f4ae4c29619,"Improved 'django-admin inspectdb' so that it doesn't raise an exception for unknown field types. Now it uses TextField by default and outputs a Python comment.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@398 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+3f2df5e7aa95e6cc78864a5cc452bb0c1d925a3e,"Fixed #269 -- Added MatchesRegularExpression validator. Thanks, Hugo!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@399 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+a8ecb56106736580270fc9f2bb1dc2d34c764cd7,"Fixed #267 -- ""Save and continue editing"" no longer assumes object has an ID field. Thanks, Hugo
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@400 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+dae5863058cc53278bd830be8e89492f62e46117,"Fixed #263 -- inspectdb output now includes a comment reminding people to run sqlinitialdata. Thanks, Hugo
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@401 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+2315ccc4998087463310b1dc2cd3fed21685b5fd,"Fixed #268 -- Added AnyValidator and fixed small bug in [399]. Thanks, Hugo
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@402 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+0c6019295a86140fd231bccabc987496f23393eb,"Refactored django.core.validators.RequiredIfOtherFieldGiven to remove duplicate code
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@403 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+63eecadfc66a1b52abda9921598750ea27095456,"Tightened up some code in django.core.validators
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@404 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+502755878d5d4d197793880945823dade7b90674,"Fixed #266 -- Added ValidateIfOtherFieldEquals validator. Thanks again, Hugo
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@405 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+f5b22bf4310d68ca18cf8c9052cb1c8fe09235f9,"Fixed #271 -- Changed doc references to ManyToOneField. Thanks, brantley
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@406 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+05d074670a069465d2e4fad2ff1e716f59a61bed,"Added 'How this is possible' section to docs/db-api.txt, describing keyword arguments in the API
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@407 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+432e19034ae4e35bf6fc510fa632a0a58c9ff58e,"Small formatting improvement to docs/db-api.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@408 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+0b9330b08584b283ddff342807aa65c1bd1adc45,"Changed default ManyToOne num_in_admin from 0 to 3, to help avoid confusion when people forget to set num_in_admin
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@409 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+888cf1f889785cc6746a9a1a9019f3e2a7218eb1,"Fixed #275 -- Bug in validators.RequiredIfOtherFieldsGiven. Thanks, jhernandez
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@410 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+a55598cbdd5e8ab58bb58e2178ccbe155526d735,"Refactored the internals of URL parsing to use less code
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@411 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+b6a1105768772e4687b8cf6342b2393426ef10d6,"Updated admin doc view to reflect changes from [411]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@412 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+c5179609847733c4babcc32312686d9fabf37315,"Made small cleanups to two default urlconfs, to be clearer.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@413 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+59c3ebc6dddab2a52b5c4079fb78871b35b5dcaa,"Greatly improved the 404 error message when DEBUG=True. If none of the urlpatterns matches, Django now displays a list of all the urlpatterns it tried. This should catch a lot of newbie errors, and it's helpful even for power users.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@414 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+a537a4efa1de8333c07817189b6de2711da89ff0,"Changed 'django-admin startapp' so that it doesn't create the 'urls' directory. People have said they're a bit overwhelmed by the multiple url directories, and this one isn't necessary for basic Django usage. You can always make it yourself if you know what you're doing and want to decouple/distribute your apps.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@415 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,4
+9d8dd8610d643d68267d4e654fbe2f3317e5e9b7,"Changed 'check back within 48 hours' message, because it's blatantly false -- apologies
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@416 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8a9806096fb36c2cd9df623c8d5d0fbc29a08b0d,"Fixed #7 -- Fixed subtle admin changelist filter bug in maintaining state. Thanks for the patch, Manuzhai!
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@417 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+5bb56520a5ad39396c7dd66e480040a701ede100,"Fixed #270 -- Admin change forms now display default values in num_extra_on_change fields with default set. Thanks for the patch, Hugo
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@418 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+67bb1bc7017b0ed275845edecdd65c35e8ec2ad8,"Added explicit note to docs/tutorial02.txt that you should edit TEMPLATE_DIRS in the *admin* settings file if you want to change admin template directories
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@425 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+4003f9f4829c855cbe8e38c5267836299eeab6f9,"Changed 'django-admin adminindex' to output relative links, not absolute links. Thanks, Joe Grace
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@426 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+03bd1d7ff9bae80694c09b57ca5737cce68b756b,"Made some improvements/clean-ups to docs/tutorial03.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@430 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+b7e5121684afa36739c1aa9bbb96401645dbc417,"Fixed #280 -- Added _pre_delete() and _post_delete() hooks. Also updated the docs and added a unit testdjango/core/meta/__init__.py
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@432 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+a90e9f43db394565502c040502d8a4421767ba0b,"Companion checkin to [432]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@433 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+b7e226d8b8ebce1081ff74c0fff7406390fa2402,"Fixed typos in generic-views documentation
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@434 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+1cc4531f0b734003444193d0a6f7ece365d731c8,"Added docs/tutorial04.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@435 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+ee52eba85acaea54d9be798654f8d55f1d979812,"Fixed formatting problem in docs/tutorial03.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@436 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+b108360407af17b2220b1144e9fb10a961175ba7,"Fixed #290 -- Thanks, Matt Croydon
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@437 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+d87ca56c63a8965dfb8b45b517c2bfd8aab8d5f9,"Removed period from save_delete_hooks docstring -- it doesn't fit our style
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@438 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+e79eb09f2169ba9497283ab1a9e31c49e857fa93,"Fixed #293 -- Typo in tutorial04. Thanks, espen@grindhaug.org
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@439 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+4f00611f747b566cb7586f02462e57829424f077,"Fixed #211 -- edit_inline_type is deprecated, in favor of edit_inline itself. For example, instead of 'edit_inline=True, edit_inline_type=meta.TABULAR', use 'edit_inline=meta.TABULAR'.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@440 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,6
+32fe8e3863a39c10826225b6938233fb31a83f0a,"Removed Janet Reno example from doc/templates.txt -- thanks, Bob
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@441 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+217c74678935cce1fd3a814aab8f654afa454d91,"Copy-edited docs/templates.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@442 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+b888113f49733cd49adb4dc411b133ec093c182b,"Small change to docstring in django.core.template
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@443 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+741109f44056a0c55aaaf7a2747926a7b1b648b6,"Added some extra examples to many_to_many unit test
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@444 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+270234d1895d81698fda140caa43629ad77504e0,"Added some extra examples to many_to_many unit test
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@445 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+fd579f24d79ac70f8339f1544f2c3707cf468800,"Improved unit-test framework so that it handles database errors more elegantly
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@446 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+991832d0c4dc211a4346256b62c44942894b495d,"Fixed #154 -- Fixed constraint error when deleting an object with a many-to-many field
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@447 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+e2426e68e6aee3cff0683bf1cc6f029bdebec523,"Removed unnecessary code from admin_media/js/admin/add_calendars.js
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@448 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+65f7e142e4fc9672591d4a4c8dbb065fb335d20f,"Removed admin_media/js/admin/add_calendars.js -- it wasn't being used
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@449 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+5144a60efce7bc69ea91873c3ac9906c575decb8,"Removed unnecessary code from admin_media/js
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@450 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+d8f5cad47e417c3c16e133324b76fce71474ad7d,"Removed media.ljworld.com reference from admin_media/js/SelectFilter2.js. Refs #49
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@451 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+9a6e8142b8eaae7f92c7dc7c4135fd4d169cfbd5,"Removed media.ljworld.com reference from admin_media/js/admin/DateTimeShortcuts.js
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@452 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+0d060ba547e5cfd722e673637d61bac550cc5b00,"Updated PPK's URL in comments of admin_media/js/core.js
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@453 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+258e6bc33034b755a6c94cfa22b6ee44b1494501,"Simplified metasystem get_db_prep_save() hook so that it doesn't take an 'add' parameter -- it wasn't being used, anyway.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@454 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+6d234fae8ce1f1312db3b9662e2f8fb147e58d8b,"Slightly refactored metasystem -- changed Field pre_save() hooks to pre_save_add(), in preparation for some bigger changes. Refs #81.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@455 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+8a209c232c2334986b59b4caf56d08bdb79a269a,"Fixed #296 -- Fixed typo in docs/model-api.txt. Thanks, rmunn
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@456 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+5b812ae02cfa1e80e959f0bf31e7f82138094bb5,"Undid [455] -- it's not a good enough solution for what I'm trying to do
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@457 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+0660203afe66fbc663a4e0af93ec74cd61e2c712,"Added custom_pk unit tests, which fail because of #81
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@458 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+024e68e260a70281d6f07e3a562e24140d3ecc2f,"Changed MySQL backend so that it fails silently if rollback() isn't supported (the code catches NotSupportedError exception)
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@459 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+7bac5520690b8df041e705862096a969f76975fc,"Changed [459] to use a better interface for the exception
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@460 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+63e1f3d39c0ef19b022675da2b138a3ba4cb0119,"Added more tests to custom_pk unit-test model
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@461 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+4622e0ff82f82be424439cc218182a4f18c3e17c,"Refactored the way save() works so that non-integer primary keys are now possible. custom_pk unit tests (from [458]) now pass. Refs #81.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@462 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+151bf05850e1a5449c741aecdaafae544c6bcccf,"Fixed #297 -- Added a '--settings' option to runtests.py
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@463 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+254f31819bb47eb23ea4f163154a55e80e2478a9,"Fixed #299 -- Slugify no longer removes hyphens. Thanks, gch@cs.cmu.edu
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@464 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+3a1ae2164b79506b58cacec15a1afa9b28f0349a,"Added a custom doctest OutputChecker that ignores differences between ints and longs in values returned from the database; refs #238
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@465 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+f65350b197e7d61c2d049118cb8ebfea467839ab,"Doctest now uses the ELLIPSIS option, which allows the one_to_one test to pass under sqlite.  This fixes #238.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@466 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+8e2d2753903dd0c9e2c5dd5b8fc61e0c613161a5,"Fixed #241 -- added django.contrib.markup app with markup templatetags for Textile, ReST and Markdown
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@467 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,4
+b3ae12fa4ac3192b732be76f26ff707b60639bd1,"Cleaned up admin view code to use new 'pk' lookup syntax
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@468 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+199938649e36389750eef6f097bae46977e796f5,"Fixed #81 -- Admin now supports primary_key=True for non-integer fields. Note that you'll have to make a change to your database if you're using a previous Django installation and want to use non-integer primary key fields. See the BackwardsIncompatibleChanges wiki page for info.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@469 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,5
+46d8bbab3d078a99167fc841e152bb9a2cf464fb,"Added help_doc to django.core.management.install
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@470 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+055f1d0de6086640fd0f2c3b0fd577f12acb8d78,"Added docs/django-admin.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@471 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+066722db046eb95920d7b4929a11723af35191ab,"Added 'Available options' section to docs/django-admin.txt, and fixed the inevitable ReST errors
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@472 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+78387d5e34eb06687fc20ecbd4b88350baf1d6e3,"Fixed another ReST bug in docs/django-admin.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@473 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+9c2d890eecc6e01de7a9bcc70f4b3282438d506f,"Added link to docs/django-admin from tutorial01
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@474 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+7bb1a2bbbafe28a5e00f498e5418b584b7a7654a,"Changed docs/django-admin.txt to add note about which databases 'inspectdb' works with.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@475 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+77d20bedd408e95f1d96a166669f644e919a57cc,"Fixed #192 -- File uploads now work with built-in Web server. Thanks, mordaha@gmail.com
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@476 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+bdcea2e6ca383fc6364be63bbf8359ddcd0145a3,"Fixed #118 -- Renamed 'flat files' to 'flat pages' in the admin. Didn't rename it in the Python code, because too many things would break.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@477 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+fcfb8edc153a3357529a86aff70ceb273859d7ca,"Fixed #126 -- HttpRequest now has a 'raw_post_data' attribute.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@478 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+e67882721d8ae9546575c68c4d3c42dcfa3f8e04,"Refactored django.core.urlresolvers a tiny bit
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@479 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+aed151d3d86aca55370c659fc2888f34698a4fde,"Improved docs/tutorial01.txt thanks to reader suggestions
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@480 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8dac184adc40b716f59c77abb079679d085cb75a,"Fixed ReST bugs in docs/model-api.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@481 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+6f4e6b4bcbdb79e8aceac1af9ac66088d66c51b0,"Changed markup tests to not fail if required modules are not installed
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@483 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8ebe5db684ac7e97836dabbce091c41a8b2e12fd,"Added link to mod_python doc from docs/install.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@484 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8d8da826dbf1a702f8b11c3942bf8134c4f0f165,"Changed timestamp and time typecasting to preserve microseconds. Added unit tests to test this behavior, and added a db_typecast unit test module. Refs #306.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@487 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,4
+43f3b984e845c8f9be13afd541e336a00d70018e,"Removed <meta http-equiv='content-type'...> from admin base template, because Django sends out correct content-type HTTP header as of [340]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@490 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+199aa88ffb35b8d285a1ac2759f6fbfa1a2420e0,"Moved django.core.handlers.wsgi.AdminMediaHandler to django.core.servers.basehttp. Makes more sense to have it in there, because its only use is for the development server.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@491 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,3
+b149fc367178d90b757e8711a218e0ca54c1c88f,"Fixed #310 -- thanks, mordaha
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@492 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+54f93895a8938ef3d76370f6bf57997cf34a1d93,"Added a quick example of prepopulate_from to clarify the description
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@493 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+a9b43edde24e6bb2caa82864d9b8d865b2fea113,"Fixed #316 -- Changed MySQL backend to disregard warnings
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@494 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+bf108187a2a1d36bf7b0a61575b331386043507e,"Fixed #321 -- Undid [494], which assumed the installed version of MySQLdb had a 'cursors.CursorNW'. Thanks for being consistent, MySQLdb. This opens #316 again.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@495 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+2c3067b5e5c7f4a818337760c029267d8658eb0a,"Fixed #311 -- Small change to docstring. Thanks, rmunn
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@496 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+bc00059b2fcc4e59c2bef59700a8a78a3e014948,"Fixed #316 -- Added special-case for MySQL microseconds, so that it doesn't throw a warning when microseconds are given.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@497 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+1e479ba90dab2885abaa8eba9170400b1caa6f0e,"Fixed #93 and #279 -- 'django-admin startproject' no longer creates invalid settings/admin.py on Windows
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@498 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+1303933fd904359fce1b45d67ccc3d59244ef388,"Fixed typo in docs/tutorial04.txt -- thanks, 'nitpicker'
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@499 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+025b16178f45e31f055e5616752b25c874eeae02,"Changed docs/tutorial01.txt to use a tree format instead of 'ls' output -- thanks for the suggestion, Ken Kinder
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@500 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+e004d2a0f78d4a09f32586b6d15028fc5957cd13,"Changed docs/tutorial01.txt to be clearer about PYTHONPATH environment variable -- thanks for the suggestion, Ken Kinder
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@501 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+4a7159865e766cf586ada6f3f73fb5f7504354b8,"Improved error handling for invalid model parameters that aren't custom functions.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@502 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+8f9e5b6b3ba7165ddac717690d9710b49a4a5a6a,"Added 'django-admin.py validate', which validates all installed models. Validation only handles common errors at this point, but we'll be improving it each time we think of a potential model syntax problem. Also changed the development Web server to validate automatically at server start.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@503 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+91c71d36e621ddb3c7826db527290ca9e140e086,"Fixed #322 -- 'django-admin runserver' no longer validates models.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@504 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+db127b79835cb971639e0185073e5d7756fb9d9a,"Fixed #322 -- Development server now calls validate() again. Thanks, rmunn
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@505 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,2
+b5ed20434e5faa739f7bc753319986dd9dfac7f7,"Added unit test that tests #323 -- currently fails for MySQL and passes for PostgreSQL
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@506 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+27986994eea82645fb99ad1a373b7d99110eb3c0,"Fixed #320 -- Changed save() code so that it doesn't rely on cursor.rowcount. MySQLdb sets cursor.rowcount to 0 in an UPDATE statement even if the record already exists. Now save() does a SELECT query to find out whether a record with the primary key already exists.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@507 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+56071754eafd264ccfeef7d0742c7482baed4dae,"Fixed #318 -- Fixed typo in docs/model-api.txt. Thanks, django@sharpbanana.co.uk
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@508 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+7cfddb3c43ba5b006b0e0082dfc77abeb846a15a,"Improved model validator to validate 'choices' for a field
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@509 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+c727729183bdf773df9b7ebe725fb7a57e7508a2,"Changed meta.py save() code from [507] to work under sqlite. All tests now pass in all 3 database backends.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@510 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+d22e88898fdd4d60d481e17f726d5b134ddc1daf,"Changed handlers (both mod_python and WSGI) to support setting multiple cookies per request
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@511 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+071037ff80119656f46400cb0c2a1453e80c37f1,"Changed 'django-admin startproject' to included MIDDLEWARE_CLASSES in settings/main.py.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@512 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+00da60e932967b691d61b3d6af5365c9e1619b62,"Removed special-case test for '_files' URL in common middleware -- thanks, Jeremy Dunck
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@513 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+935daf062612f4acd4e9dc143239bf29c5553bc0,"Fixed typo in django.views.auth.login
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@515 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+7d374ad5973ff5b14e996a38e078c7d46646ae5d,"Added raw_id_admin support to ManyToManyField objects; fixes #260
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@516 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,3
+f21ff30b104ef1eedcfebd230a98fef4b6cc7ebd,"Small formatting change to validation error in [516], to be consistent with other validation errors.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@517 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+07889c13a63eeb3e8a73f1e02a21227def3ae548,"Fixed #1 -- Added anonymous session support via middleware and request.session. Removed the former request.session, which wasn't being used anyway. Removed auth.Session model. See the BackwardsIncompatibleChanges wiki page for IMPORTANT notes on code you'll have to change and a DB table you'll have to create.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@518 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,13
+72109f4e35776c31d5e75174accabfe451abdade,"Added SessionMiddleware to MIDDLEWARE_CLASSES in global_settings, so it's available by default.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@519 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+659ab9846e81d95bb75dbb3c00147324bf0d6541,"Fixed small bug in views.auth.login.login
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@520 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+7d022cd48fd4e193108c1b4785d3bdc2fe0e22e8,"Fixed small bug in parts.auth.formfields.AuthenticationForm
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@521 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+a5797248525126362266794ddffb28b6299c80f5,"Fixed #336 -- Typo in docs/generic_views.txt. Thanks, Matt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@522 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+21c4526557fb50b9b62f32065c7d3952ea35c5df,"Added doc/sessions.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@523 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+99d8bb34fe034161c9f6ca7587a0f8b87a2f1236,"Added 'Session object guidlines' section to docs/sessions.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@524 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+5f37a627daf6e6d88fde2219034a5c0188aaff8a,"Fixed #340 -- Default admin settings (in django-admin startproject) now include cache middleware. Thanks, Bless
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@525 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+81c46499443310284c01879177a8acfd3ad25b12,"Made some tiny tweaks to docs/tutorial02.txt -- thanks, anonymous
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@527 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8acb6c836ba0ca84f8ee40a7b8ac5c49e76f6d66,"Fixed typo in docs/generic_views.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@528 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+b1d9682a380484950b92f7fa37acd2b6f212578f,"Fixed #335 -- Admin login form now checks that cookies are enabled.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@529 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+f5ab1320ed3acbbc8b8bc358a46f5ae1380deff9,"Fixed bug in manipulator_valid_rel_key() -- it assumed the related object's primary key was called 'id'
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@530 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+8a939224fa5df92f38532c76901975b9e765a1e9,"Added friendly error message if a view returns None instead of an HttpResponse object.
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@531 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+28d41fe2701a6d6912b655b86cf2a461d81e7ae9,"Tweaked [531] slightly, so that it checks for 'is None' instead of boolean 'not'
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@532 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+94960d5635c98a51a4c8ef239374605e05aa0c67,"Added docs/legacy_databases.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@533 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+1dccbcdcc1f2690cc0cf7715f31cd0cb4d260309,"Added a link to docs/legacy_databases.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@534 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+cb022650e7c0899f226e31eebb36ea0c33449295,"Clarified docs/django-admin.txt to say 'runserver' runs the model validator automatically
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@535 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+2972e8b5d5d1cc223e81e4fceef819333bbeb075,"Improved session code to force creation of a new session key if the given session key doesn't exist -- for extra security
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@536 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+a9c36d8db52736b6634b5f3e7711a9105d5c0fbd,"Modified admin styles to make headers and buttons readable with images off.
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@537 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+8d6c276328b43ab0351cbfae9bcfcacfa9fdd47d,"Fixed #371 -- Fixed bug in 'random' template filter. Thanks, Boffbowsh
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@538 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+00c6acaaf30adfb77dd38bf2064ed33d314258d9,"Fixed #360 -- runserver now takes optional 'ip:port' in addition to 'port'. Thanks, benno@jeamland.net
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@539 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,4
+9180112f021d0a2a16e29565ece4f137a1a99823,"Added 'limit' and 'offset' unit tests, one of which fails in MySQL 3 (refs #350)
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@540 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+e5e1ea602d9393a29400098dc40d0f9de846fdd1,"Fixed #350 -- 'offset' DB API parameter now works in MySQL 3. Tests from [540] pass. Thanks, ronan@cremin.com
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@541 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,5
+33f2304ea91379a85db5f53ccf235846dde3630d,"Fixed #383 -- Clarified tutorial 2. Thanks, ssteiner
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@542 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+297731c65727cd2844e0fafd6cfb9e906455cd27,"Fixed #381 -- Clarified tutorial 1. Thanks, ssteiner
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@543 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+601a892ea0ae833d0b00bbd66edeb33ecd2fcb91,"Fixed #380 -- Clarified tutorial 1. Thanks, ssteiner
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@544 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+928832d6e03c8e1b86c9fcf2b4819c0625c920d0,"Changed SessionMiddleware to use process_request instead of process_view -- that way it always gets called, even for 404s
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@545 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,2
+fffe1d1472232ae6baaff446b0aec580a5567c7d,"Fixed #406 -- Fixed small typo in docs/forms.txt. Thanks, Tom Haddon
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@546 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+9fb3f7fa932c9214f2b5114e9950529371f93023,"Fixed a small bug in admin changelist view -- the code that handles ordering by
+a related field still assumed the outdated ordering syntax.
+
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@547 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+aec0a73d73324820c767758afd250fc21a2896ef,"Changed 'coding error' and 'database error' e-mails to include request.path in subject
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@548 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+25264c86048d442a4885dfebae94510e2fa0c1e4,"Fixed #122 -- BIG, BACKWARDS-INCOMPATIBLE CHANGE. Changed model syntax to use fieldname=FieldClass() syntax. See ModelSyntaxChangeInstructions for important information on how to change your models
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@549 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,36
+939e2bccd536c69681946901348bf35c909aad9f,"Changed django-admin.py inspectdb to output new-style model syntax
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@550 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+3db068f7fa974ad9c5838967ab7c238061ece93d,"Fixed bug in docs/tutorial02.txt related to model syntax change. Thanks, Jeremy
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@555 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+1aaa3358b9ec00e45fb21f2c2026301b8927c9fc,"Fixed ReST bug in docs/model-api.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@556 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+286698e8e5e08f3d74ee188ab2640564971069ce,"Removed 'this isn't yet supported' message from custom_pk unit test docstring -- it IS supported
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@557 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+75b5372a8fe4662946ed88b6abfc65b572314c75,"Tiny change to docstring in many_to_one_null model unit test
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@558 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+b8e1be6f46bb83f298f4b1d8b800fdd834016549,"Beefed up docs/model-api.txt -- added a significant amount of documentation, links to example models and formatting changes
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@560 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+9138dc700804437d89cbc5b6ea79aa32cb0edc0b,"Fixed the inevitable ReST bugs in [560]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@561 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+c0fef161c107bf67b43b768b83f28f46b8f7e3b3,"Fixed the inevitable ReST bugs in [560]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@562 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+f6f3b1f97b0374d49c916360ef7351615780d17e,"Fixed another stupid ReST bugs in [560]
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@563 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+879222786a6e04021a69afe557745d3c2a28bef2,"Added 'Using models', 'Models across files' and 'Models in multiple files' sections to docs/model-api.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@564 bcc190cf-cafb-0310-a4f2-bffc1f526a37",False,1
+09b5266d641d3cdb63948c87f48fcacb702fbf43,"Fixed bug in docs/model-api.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@565 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+10204da32653eedee0e94e1baeeaaed96dc8b954,"Fixed ReST bug in docs/model-api.txt -- I think
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@566 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+25d8441d724f64a99f43f29dddb104b879336eda,"Final ReST bugfix to docs/model-api.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@567 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+df3564dace7838d517714c6af3ceeeb11266839e,"Fixed typo in docs/model-api.txt
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@568 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
+b77114caaa4842749e4779146e22c22a41880f13,"Fixed #423 -- Fixed bug in ForeignKey admin filters. Thanks, jkocherhans
+
+git-svn-id: http://code.djangoproject.com/svn/django/trunk@569 bcc190cf-cafb-0310-a4f2-bffc1f526a37",True,1
